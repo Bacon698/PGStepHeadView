@@ -51,6 +51,8 @@ typedef NS_ENUM(NSUInteger, viewType) {
 {
     self = [super init];
     if (self) {
+        
+        self.userInteractionEnabled = NO;
         _lineColor = [UIColor lightGrayColor];
         _titleColorSelected = [UIColor colorWithRed:111/255.0f green:142/255.0f blue:195/255.0f alpha:1];
         _titleColorUnselected = [UIColor lightGrayColor];
