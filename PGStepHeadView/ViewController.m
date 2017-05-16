@@ -26,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.stepHeadViewA = [[PGStepHeadView alloc]initWithTitles:@[@"第一步",@"第二步",@"第三步",@"第四步"]];
+    self.stepHeadViewA = [[PGStepHeadView alloc]initWithTitles:@[@"第一步",@"第二步"] equalInterval:YES];
     [self.stepHeadViewA addToView:self.headViewA];
     [self.stepHeadViewA setIndex:1];
 

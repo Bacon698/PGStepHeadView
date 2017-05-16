@@ -13,5 +13,197 @@
             stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PGStepHeadView/PGStepHeadView/PGStepHeadView.m"
+            timestampString = "516624983.154537"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "258"
+            endingLineNumber = "258"
+            landmarkName = "-layoutIconButtonAndLineWithIndex:iconCenter:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PGStepHeadView layoutIconButtonAndLineWithIndex:iconCenter:]"
+                  moduleName = "PGStepHeadView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangpeigen/Documents/PGStepHeadView/PGStepHeadView/PGStepHeadView/PGStepHeadView.m"
+                  timestampString = "516624688.904175"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "258"
+                  endingLineNumber = "258"
+                  offsetFromSymbolStart = "1318">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__62-[PGStepHeadView layoutIconButtonAndLineWithIndex:iconCenter:]_block_invoke.130"
+                  moduleName = "PGStepHeadView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangpeigen/Documents/PGStepHeadView/PGStepHeadView/PGStepHeadView/PGStepHeadView.m"
+                  timestampString = "516624688.909251"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "258"
+                  endingLineNumber = "258"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PGStepHeadView/PGStepHeadView/PGStepHeadView.m"
+            timestampString = "516624983.154537"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "262"
+            endingLineNumber = "262"
+            landmarkName = "-layoutIconButtonAndLineWithIndex:iconCenter:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PGStepHeadView layoutIconButtonAndLineWithIndex:iconCenter:]"
+                  moduleName = "PGStepHeadView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangpeigen/Documents/PGStepHeadView/PGStepHeadView/PGStepHeadView/PGStepHeadView.m"
+                  timestampString = "516624688.919354"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "262"
+                  endingLineNumber = "262"
+                  offsetFromSymbolStart = "1494">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__62-[PGStepHeadView layoutIconButtonAndLineWithIndex:iconCenter:]_block_invoke.134"
+                  moduleName = "PGStepHeadView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangpeigen/Documents/PGStepHeadView/PGStepHeadView/PGStepHeadView/PGStepHeadView.m"
+                  timestampString = "516624688.922188"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "263"
+                  endingLineNumber = "263"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PGStepHeadView/PGStepHeadView/PGStepHeadView.m"
+            timestampString = "516624998.827581"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "284"
+            endingLineNumber = "284"
+            landmarkName = "-layoutIconButtonAndLineWithIndex:iconCenter:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PGStepHeadView layoutIconButtonAndLineWithIndex:iconCenter:]"
+                  moduleName = "PGStepHeadView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangpeigen/Documents/PGStepHeadView/PGStepHeadView/PGStepHeadView/PGStepHeadView.m"
+                  timestampString = "516624688.944351"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "285"
+                  endingLineNumber = "285"
+                  offsetFromSymbolStart = "2286">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__62-[PGStepHeadView layoutIconButtonAndLineWithIndex:iconCenter:]_block_invoke.143"
+                  moduleName = "PGStepHeadView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangpeigen/Documents/PGStepHeadView/PGStepHeadView/PGStepHeadView/PGStepHeadView.m"
+                  timestampString = "516624688.949301"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "285"
+                  endingLineNumber = "285"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PGStepHeadView/PGStepHeadView/PGStepHeadView.m"
+            timestampString = "516624998.827581"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "288"
+            endingLineNumber = "288"
+            landmarkName = "-layoutIconButtonAndLineWithIndex:iconCenter:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PGStepHeadView layoutIconButtonAndLineWithIndex:iconCenter:]"
+                  moduleName = "PGStepHeadView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangpeigen/Documents/PGStepHeadView/PGStepHeadView/PGStepHeadView/PGStepHeadView.m"
+                  timestampString = "516624688.958445"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "289"
+                  endingLineNumber = "289"
+                  offsetFromSymbolStart = "2462">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__62-[PGStepHeadView layoutIconButtonAndLineWithIndex:iconCenter:]_block_invoke.147"
+                  moduleName = "PGStepHeadView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangpeigen/Documents/PGStepHeadView/PGStepHeadView/PGStepHeadView/PGStepHeadView.m"
+                  timestampString = "516624688.96134"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "290"
+                  endingLineNumber = "290"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

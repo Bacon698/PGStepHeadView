@@ -16,10 +16,12 @@
  用标题数组生成控件
 
  @param titles 字符串数组
+ 
+ @param equalInterval 如果等于Yes则每一步的间距相等
 
  */
+-(instancetype)initWithTitles:(NSArray *)titles equalInterval:(BOOL)equalInterval;
 -(instancetype)initWithTitles:(NSArray *)titles;
-
 /**
  用步数生成控件
 

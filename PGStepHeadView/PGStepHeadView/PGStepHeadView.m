@@ -35,6 +35,8 @@ typedef NS_ENUM(NSUInteger, viewType) {
     UIColor *_titleColorUnselected;
     
     viewType _viewType;
+    
+    BOOL _equalInterval;
 }
 
 @property (strong,nonatomic) NSMutableArray *iconButtonArray;
@@ -59,6 +61,13 @@ typedef NS_ENUM(NSUInteger, viewType) {
     return self;
 }
 
+-(instancetype)initWithTitles:(NSArray *)titles equalInterval:(BOOL)equalInterval{
+
+    _equalInterval = equalInterval;
+    self = [self initWithTitles:titles];
+    return self;
+    
+}
 -(instancetype)initWithTitles:(NSArray *)titles{
     self = [self init];
     [self setTitles:titles];
@@ -237,13 +246,23 @@ typedef NS_ENUM(NSUInteger, viewType) {
     if (i == 0) {
         
         UILabel *firstLabel = self.lineLabelArray[i];//第一个button只负责最前边的Line,最前边的line不同所以单独拿出来
+        UILabel *behindLabel = self.lineLabelArray[i+1];
         
         [firstLabel mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.mas_equalTo(self);
             make.height.mas_equalTo(_lineHeigh);
             make.centerY.mas_equalTo(button);
-            make.width.mas_equalTo(_flankInterval);
         }];
+        
+        if (_equalInterval) {
+            [firstLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+               make.width.mas_equalTo(behindLabel);
+            }];
+        }else{
+            [firstLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+                make.width.mas_equalTo(_flankInterval);
+            }];
+        }
 
     }else if (i == (_stepCount?_stepCount:_titles.count) - 1) {//最后一个button负责两个Line
         
@@ -259,8 +278,17 @@ typedef NS_ENUM(NSUInteger, viewType) {
             make.height.mas_equalTo(_lineHeigh);
             make.centerY.mas_equalTo(button);
             make.right.mas_equalTo(self);
-            make.width.mas_equalTo(_flankInterval);
         }];
+        
+        if (_equalInterval) {
+            [LastLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+                make.width.mas_equalTo(frontLabel);
+            }];
+        }else{
+            [LastLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+                make.width.mas_equalTo(_flankInterval);
+            }];
+        }
         
         
     }else{
