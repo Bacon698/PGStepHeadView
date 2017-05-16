@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Masonry.h"
 
 @interface PGStepHeadView : UIView
+
+-(instancetype)initWithTitles:(NSArray *)titles;
+
+-(void)addToView:(UIView *)view;
 
 @end
