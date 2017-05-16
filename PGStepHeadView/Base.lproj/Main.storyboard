@@ -22,22 +22,44 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8P2-gC-I0M">
-                                <rect key="frame" x="0.0" y="83" width="375" height="143"/>
+                                <rect key="frame" x="0.0" y="83" width="375" height="120"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="143" id="nrt-vD-v4n"/>
+                                    <constraint firstAttribute="height" constant="120" id="nrt-vD-v4n"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z53-EH-rwr">
+                                <rect key="frame" x="0.0" y="241" width="375" height="120"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="Qar-oc-tk4"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4P0-4e-utU">
+                                <rect key="frame" x="0.0" y="399" width="375" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="HWd-0t-2Ky"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="4P0-4e-utU" firstAttribute="top" secondItem="Z53-EH-rwr" secondAttribute="bottom" constant="38" id="2Ml-X2-ort"/>
+                            <constraint firstAttribute="trailing" secondItem="4P0-4e-utU" secondAttribute="trailing" id="5Go-cG-b2o"/>
                             <constraint firstItem="8P2-gC-I0M" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8Sr-Oj-sVL"/>
                             <constraint firstItem="8P2-gC-I0M" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="63" id="8z3-tb-7Om"/>
+                            <constraint firstItem="Z53-EH-rwr" firstAttribute="top" secondItem="8P2-gC-I0M" secondAttribute="bottom" constant="38" id="YaT-eh-IpW"/>
+                            <constraint firstItem="4P0-4e-utU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bBn-Pa-Adv"/>
                             <constraint firstAttribute="trailing" secondItem="8P2-gC-I0M" secondAttribute="trailing" id="ghM-yM-Qbt"/>
+                            <constraint firstItem="Z53-EH-rwr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pli-aK-G11"/>
+                            <constraint firstAttribute="trailing" secondItem="Z53-EH-rwr" secondAttribute="trailing" id="tPg-LK-x6X"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="headView" destination="8P2-gC-I0M" id="EIR-vC-sum"/>
+                        <outlet property="headViewA" destination="8P2-gC-I0M" id="peF-zz-SBQ"/>
+                        <outlet property="headViewB" destination="Z53-EH-rwr" id="efA-SL-coa"/>
+                        <outlet property="headViewC" destination="4P0-4e-utU" id="dKr-On-gJw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
