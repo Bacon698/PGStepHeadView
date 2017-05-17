@@ -18,9 +18,9 @@
 #import "PGStepHeadView.h"
 
 
-typedef NS_ENUM(NSUInteger, viewType) {
-    iconView,
-    titleView,
+typedef NS_ENUM(NSUInteger, stepHeadViewType) {
+    stepHeadIconView,
+    stepHeadTitleView,
 };
 
 
@@ -34,7 +34,7 @@ typedef NS_ENUM(NSUInteger, viewType) {
     UIColor *_titleColorSelected;
     UIColor *_titleColorUnselected;
     
-    viewType _viewType;
+    stepHeadViewType _stepHeadViewType;
     
     BOOL _equalInterval;
 }
@@ -83,7 +83,7 @@ typedef NS_ENUM(NSUInteger, viewType) {
 }
 
 -(void)setStepCount:(int)stepCount{
-    _viewType = iconView;
+    _stepHeadViewType = stepHeadIconView;
     _stepCount =stepCount;
     
     if (_iconNameUnselectedArray.count < stepCount || _iconNameSelectedArray.count < stepCount ) {
@@ -106,7 +106,7 @@ typedef NS_ENUM(NSUInteger, viewType) {
 }
 
 -(void)setTitles:(NSArray *)titles{
-    _viewType = titleView;
+    _stepHeadViewType = stepHeadTitleView;
     _titles = titles;
     
     if (_iconNameUnselectedArray.count < titles.count || _iconNameSelectedArray.count < titles.count) {
@@ -149,7 +149,7 @@ typedef NS_ENUM(NSUInteger, viewType) {
             iconButton.selected = NO;
         }
         
-        if (_viewType == titleView) {
+        if (_stepHeadViewType == stepHeadTitleView) {
             UIButton *titleButton = self.titleButtonArray[i];
             if (i == index - 1) {
             titleButton.selected = YES;
